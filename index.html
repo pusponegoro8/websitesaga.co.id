@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Website Pribadi - Raden Issaga Pusponegoro</title>
+  <meta name="description" content="Website pribadi lengkap dengan menu navigasi dan foto profil. Siap digunakan dan dihosting gratis di GitHub Pages atau Netlify.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">Raden Issaga Pusponegoro</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Buka navigasi">☰</button>
+      <nav id="mainNav" class="nav">
+        <a href="#about">Tentang</a>
+        <a href="#projects">Proyek</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Kontak</a>
+        <button id="themeToggle" class="btn-small">🌗</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-text">
+        <h1>Halo, Selamat Datang di <span class="accent">Website Pribadi Raden Issaga</span></h1>
+        <p class="lead">Tempat dimana saya berbagi karya, pengalaman, dan perjalanan di dunia IT & bisnis..</p>
+        <div class="hero-cta">
+          <a class="btn" href="#projects">Lihat Proyek</a>
+          <a class="btn-outline" href="resume.md" download>Unduh Resume</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="IMG_20250925_065442-removebg-preview.png" alt="Foto Profil Saya" width="220" height="290" style="border-radius:16px; object-fit:cover;">
+        <p class="muted small"></p>
+      </div>
+    </section>
+
+    <section id="about" class="container card">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah lulusan Madrasah Aliyah Negeri 8 Jombang dengan minat yang mendalam di dunia desain grafis dan editing. Sejak Sekolah Menengah Pertama, saya sudah tertarik dengan seni visual dan selalu berusaha mengembangkan kemampuan saya dalam menciptakan karya-karya kreatif. Pengalaman dalam menggabungkan estetika desain dengan pengetahuan teknologi telah membentuk saya menjadi seorang graphic designer yang selalu berinovasi.Selain desain, saya juga menyukai [hobi atau minat lain, misal: fotografi, videografi, travelling]. Hobi ini menginspirasi saya untuk menciptakan karya-karya yang unik dan penuh makna.</p>
+        Website pribadi ini dibuat khusus untuk showcase profil, proyek, dan kontak. Fitur lengkap: menu navigasi smooth scroll, dark/light mode, contact form, responsive design.</p>
+      <ul class="skills">
+        <li>HTML5 • CSS3 • JavaScript (Vanilla)</li>
+        <li>Responsif (Mobile-First)</li>
+        <li>Dark/Light Theme</li>
+        <li>Contact Form (EmailJS ready)</li>
+        <li>SEO Optimized</li>
+      </ul>
+      <div style="margin-top:24px;">
+        <a class="btn-outline" href="resume.md" download>Lihat Resume Lengkap</a>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Proyek Saya</h2>
+      <div id="projectsGrid" class="grid">
+        <!-- Projects loaded from projects.json via JS -->
+        <div class="project-card skeleton">Loading projects...</div>
+        <div class="project-card skeleton">Loading projects...</div>
+        <div class="project-card skeleton">Loading projects...</div>
+      </div>
+    </section>
+
+    <section id="blog" class="container card">
+      <h2>Blog</h2>
+      <article class="post">
+        <h3>Cara Deploy Website Gratis ke GitHub Pages</h3>
+        <p>Langkah mudah hosting website statis: git init → add . → commit → gh-pages branch → GitHub Settings Pages.</p>
+        <a href="#" class="read-more">Baca selengkapnya →</a>
+      </article>
+      <article class="post">
+        <h3>Membuat Portfolio Pribadi Modern</h3>
+        <p>Tips desain: hero section, smooth navigation, accessibility, performance.</p>
+        <a href="#" class="read-more">Baca selengkapnya →</a>
+      </article>
+    </section>
+
+    <section id="contact" class="container card">
+      <h2>Kontak Saya</h2>
+      <p>Mau kerja sama atau bertanya? Isi form di bawah atau hubungi langsung.</p>
+      <form id="contactForm" class="contact-form">
+        <label>
+          Nama Lengkap
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Pesan
+          <textarea name="message" rows="4" placeholder="Ceritakan kebutuhan Anda..." required></textarea>
+        </label>
+        <div class="form-row">
+          <button type="submit" class="btn">Kirim Pesan</button>
+          <button type="button" id="clearBtn" class="btn-outline">Bersihkan</button>
+        </div>
+        <p id="formStatus" class="muted" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-alt">
+        <p><strong>Email:</strong> <a href="mailto:email@contoh.com">sapaindonesia49@gmail.com</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/628xxxxxxxxxx">+62 81249366349</a></p>
+        <p><strong>Lokasi:</strong> Jombang,Jawa Timur </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Website Raden Issaga — Dibuat dengan ❤️.</p>
+      <p class="muted small">Buka index.html di browser. Hosting gratis: GitHub Pages, Netlify, Vercel.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

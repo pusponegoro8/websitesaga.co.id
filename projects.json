@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Toko Online Responsif",
+    "description": "E-commerce lengkap dengan katalog produk, cart, checkout. HTML/CSS/JS pure.",
+    "image": "https://via.placeholder.com/400x250/10b981/ffffff?text=Toko+Online",
+    "link": "https://example.com/toko",
+    "code": "https://github.com/example/toko"
+  },
+  {
+    "title": "Dashboard Absensi",
+    "description": "Sistem absensi sekolah dengan role admin/guru/siswa. QR code integration.",
+    "image": "https://via.placeholder.com/400x250/059669/ffffff?text=Absensi",
+    "link": "https://example.com/absensi",
+    "code": "https://github.com/example/absensi"
+  },
+  {
+    "title": "Portfolio Fotografer",
+    "description": "Landing page fotografer dengan gallery, pricing, booking form + WA auto-send.",
+    "image": "https://via.placeholder.com/400x250/f59e0b/ffffff?text=Portfolio",
+    "link": "https://example.com/fotografer",
+    "code": "https://github.com/example/fotografer"
+  },
+  {
+    "title": "Website Pribadi Ini",
+    "description": "Portfolio modern dengan dark mode, smooth nav, responsive design.",
+    "image": "https://via.placeholder.com/400x250/3b82f6/ffffff?text=Portfolio+Saya",
+    "link": "./",
+    "code": "https://github.com/example/website-pribadi"
+  }
+]
