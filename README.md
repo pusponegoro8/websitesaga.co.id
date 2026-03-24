@@ -1,6 +1,6 @@
-# Website Pribadi Lengkap
+Website Pribadi Lengkap
 
-## Fitur ✅
+Fitur ✅
 - ✅ Menu navigasi smooth scroll (Home, Tentang, Proyek, Blog, Kontak)
 - ✅ Foto profil di hero section (ganti `foto-profil.png`)
 - ✅ Responsive (mobile/desktop)
@@ -10,11 +10,11 @@
 - ✅ Download resume
 - ✅ Modern design, fast loading
 
-## Cara Pakai Langsung
+Cara Pakai Langsung
 1. Double-click `index.html` → buka di browser
 2. Edit konten/foto sesuai kebutuhan
 
-## Hosting Gratis (GitHub Pages)
+Hosting Gratis (GitHub Pages)
 ```
 cd website_pribadi
 git init
@@ -27,7 +27,7 @@ gh repo deploy --repo [username]/[repo] --branch main
 ```
 Atau drag-drop ke [Netlify](https://netlify.com/drop).
 
-## Customisasi
+Customisasi
 - Ganti foto: `foto-profil.png` (220x220px)
 - Edit proyek: `projects.json`
 - Email nyata: Tambah EmailJS (script gratis)
